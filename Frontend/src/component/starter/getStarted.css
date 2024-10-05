@@ -1,0 +1,67 @@
+.get_started {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    /* background-image: url(../../images//bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+  }
+  
+  /* Content inside the container */
+  .get_started > * {
+    position: relative; /* Ensure content appears above the overlay */
+    z-index: 2;
+  }
+  
+  .logo-container {
+    margin-top: 80px;
+  }
+  
+  /* .logo {
+    width: 300px;
+    height: auto;
+  } */
+  
+  .content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .get-started-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(88 127 5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 60vw;
+  }
+  
+  .get-started-button:hover {
+    background-color: #014d5d;
+  }
+  
+  .sign-up-container {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .sign-up-link {
+    color: rgb(88 127 5);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .sign-up-link:hover {
+    text-decoration: underline;
+  }
+  

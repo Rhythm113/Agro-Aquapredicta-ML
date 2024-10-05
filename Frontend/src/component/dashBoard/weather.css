@@ -1,0 +1,60 @@
+.weatherSection{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(248,245,203,1) 0%, rgba(205,236,206,1) 50%, rgba(59,209,224,1) 100%);
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px 1px #00000096;
+}
+.addressAndDate > h5{
+    margin: 0;
+    font-size: 15px;
+}
+.addressAndDate > p{
+    margin: 0;
+    font-size: 10px;
+}
+.Temp > h3{
+    margin: 0;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.weatherSection > .weatherLeft{
+    width: 60%;
+}
+.weatherSection > .weatherRight{
+    width: 40%;
+}
+.weatherComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.weatherCompDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherCompDetails > p{
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+}
+.weatherCompDetails > img{
+    width: 22px;
+    height: auto;
+}
+
+
+
+.sunPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weatherRight > img{
+    width: 100%;
+}

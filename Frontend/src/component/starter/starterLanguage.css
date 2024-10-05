@@ -1,0 +1,100 @@
+/* Fullscreen container */
+.language-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 20px;
+    /* background-color: #f7f8fa; */
+  }
+  
+  /* Header section with title and search bar */
+  .language-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .language-header h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+    border-color: rgb(0 0 0 / 53%);
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff;
+  }
+  
+  /* Language list */
+  .language-list {
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
+  
+  .language-item {
+    padding: 15px;
+    margin: 5px 0;
+    background-color: rgb(113 163 8);
+    border: 2px solid rgb(113 163 8);
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #f0f0f0;
+  }
+  
+  .language-item:hover {
+    background-color: #e9ecef;
+    border-color: #007bff;
+  }
+  
+  .language-item.selected {
+    background-color: rgb(88 127 5);
+    color: white;
+    border: 2px solid #f0f0f0;
+  }
+  
+  /* No results message */
+  .no-results {
+    margin-top: 20px;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Floating Next Button (Left Arrow) */
+  .next-button {
+    /* right: 30px; */
+    background-color: rgb(113 163 8);
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  .next-button:focus{
+    background-color: rgb(88 127 5);
+  }
+  .next-button:hover {
+    background-color: #218838;
+  }
+  

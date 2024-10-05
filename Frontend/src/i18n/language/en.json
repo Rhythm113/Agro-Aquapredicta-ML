@@ -1,0 +1,21 @@
+{
+    "next": "Next",
+    "get_started": {
+        "title": "Get Started",
+        "button": "Get Started",
+        "no_account": "Don't have an account?",
+        "sign_up": "Sign up"
+    },
+    "login": {
+        "title": "Log In",
+        "button": "Log In",
+        "email_placeholder" : "Enter your Email",
+        "pass_placeholder" : "Enter your Password",
+        "forgot_pass": "Forgot Password?"
+    },
+    "dashBoard":{
+        "title": "Dash Board",
+        "welcome": "Welcome"
+    }
+}
+  

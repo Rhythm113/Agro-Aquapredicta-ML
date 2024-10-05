@@ -1,0 +1,117 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  } 
+  
+  
+  /* Content inside the container */
+  .login > * {
+    position: relative; /* Ensure content appears above the overlay */
+    z-index: 2;
+  }
+  
+  /* .logo-container {
+    margin-bottom: 30px;
+  } */
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  .loginTitle{
+    margin-top: 5px;
+  }
+  .login-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 45px 45px 0px 0px;
+    box-shadow: 0px 0px 10px 2px #000;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .email_passBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .login-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(88 127 5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    width: 60vw;
+  }
+  
+  .login-button:hover {
+    background-color: #014d5d;
+  }
+  
+  .sign-up-container {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .forgotPassBox p {
+    color: #016c81;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .forgotPassBox p:hover {
+    text-decoration: underline;
+  }
+  .passwordWrapper {
+    position: relative;
+    width: 85%;
+  }
+  .email_passBox input,
+  .passwordWrapper input {
+    width: 85%;
+    padding: 12px 40px 12px 12px; /* Padding for the eye icon */
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    background-color: rgb(116 166 10 / 87%) !important;
+    border: 2px solid rgb(88 127 5);
+    color: #fff;
+  }
+  .email_passBox input::placeholder,
+  .passwordWrapper input::placeholder {
+    color: #fff;
+  }
+  .passwordWrapper input {
+    width: 100%;
+  }
+  .email_passBox input:focus,
+  .passwordWrapper input:focus {
+    outline: none;
+    border-color: #1f7140;
+    box-shadow: 0 0 5px #0f3b21;
+  }
+  
+  .eyeIcon {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .eyeIcon:hover {
+    color: #04a89b;
+  }

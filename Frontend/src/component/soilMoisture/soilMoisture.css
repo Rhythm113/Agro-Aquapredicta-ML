@@ -1,0 +1,22 @@
+.soilMoistureDetailsSection{
+    background: linear-gradient(180deg, rgba(187,226,105,1) 0%, rgba(241,255,170,1) 35%);
+    height: 100vh;
+    width: 100vw;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+.predictiveBarHeading{
+    color: #3B621D;
+    font-size: 18px;
+}
+.realTimeChartHeading{
+    color: #3B621D;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.realTimePieChart,
+.predictiveBarGraph{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 0px 5px;
+}

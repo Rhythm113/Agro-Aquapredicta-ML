@@ -1,0 +1,18 @@
+
+{
+    "next": "পরবর্তী",
+    "get_started": {
+        "title": "শুরু করুন",
+        "button": "শুরু করুন",
+        "no_account": "একাউন্ট নাই?",
+        "sign_up": "সাইন আপ"
+    },
+    "login": {
+        "title": "লগ ইন",
+        "button": "লগ ইন",
+        "email_placeholder" : "আপনার ইমেইল লিখুন",
+        "pass_placeholder" : "আপনার পাসওয়ার্ড লিখুন",
+        "forgot_pass": "পাসওয়ার্ড ভুলে গেছেন?"
+    }
+}
+  

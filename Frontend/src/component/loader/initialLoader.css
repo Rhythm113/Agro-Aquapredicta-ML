@@ -1,0 +1,9 @@
+.initialLoader{
+    background-image: url('../../images/Initial\ Loader.gif');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
